@@ -1,5 +1,4 @@
-Welcome to my **100 Days of DSA** challenge!  
-This repository documents my daily progress in learning and practicing **Data Structures and Algorithms (DSA)** with consistency and discipline.
+ This repository documents my daily progress in learning and practicing Data Structures and Algorithms (DSA) with consistency and discipline.
 
 ## 📅 Challenge Goal
 - Practice DSA **daily for 100 days**
