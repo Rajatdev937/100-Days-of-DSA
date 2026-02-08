@@ -25,6 +25,14 @@ This repo documents my daily progress in learning and practicing Data Structures
 - Bit Manipulation (if applicable)
 
 ## 🧑‍💻 Language Used
-- C / C++ / Java / Python (update this based on what you use)
+- C
 
-## 📂 Folder Structure
+  ## ⚙️ File Compilation & Execution
+
+### 🖥 Compile C Program
+Use GCC compiler to compile the code:
+
+```bash
+gcc filename.c -o output
+
+
