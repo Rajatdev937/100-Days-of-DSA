@@ -43,16 +43,16 @@ int main() {
     sum = (int**)malloc(m * sizeof(int*));
 
     for(int i = 0; i < m; i++) {
-        a[i] = (int*)malloc(n * sizeof(int));
-        b[i] = (int*)malloc(n * sizeof(int));
-        sum[i] = (int*)malloc(n * sizeof(int));
+        a[i]=(int*)malloc(n*sizeof(int));
+        b[i]=(int*)malloc(n*sizeof(int));
+        sum[i]=(int*)malloc(n*sizeof(int));
     }
 
-    // Input first matrix
-    for(int i = 0; i < m; i++) {
-        for(int j = 0; j < n; j++) {
-            scanf("%d", &a[i][j]);
-        }
+// Input first matrix
+for(int i = 0; i < m; i++) {
+   for(int j = 0; j < n; j++) {
+    scanf("%d", &a[i][j]);
+}
     }
 
     // Input second matrix

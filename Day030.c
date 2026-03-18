@@ -38,7 +38,7 @@ struct Node* createNode(int c, int e) {
     newNode->exp = e;
     newNode->next = NULL;
     return newNode;
-}
+}   // ← Missing brace fixed
 
 // Insert node at end
 struct Node* insert(struct Node* head, int c, int e) {
@@ -48,12 +48,13 @@ struct Node* insert(struct Node* head, int c, int e) {
         return newNode;
 
     struct Node* temp = head;
+
     while(temp->next != NULL)
         temp = temp->next;
 
     temp->next = newNode;
     return head;
-}
+}   // ← Removed extra 'z'
 
 // Display polynomial
 void display(struct Node* head) {

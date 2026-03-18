@@ -67,7 +67,6 @@ void traverseCircularList(Node *head) {
 int main() {
     int n;
     scanf("%d", &n);
-
     Node *head = createCircularList(n);
 
     traverseCircularList(head);
